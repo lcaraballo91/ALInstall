@@ -29,7 +29,7 @@ passwd
 sleep 3
 
 #APPS
-pacman -S linux-docs linux-headers intel-ucode efivar gvfs gvfs-nfs ntfs-3g dosfstools dhcpcd netctl dhcpcd iw wpa_supplicant dialog networkmanager nm-connection-editor network-manager-applet modemmanager usb_modeswitch mobile-broadband-provider-info rp-pppoe networkmanager-openconnect networkmanager-pptp networkmanager-vpnc networkmanager-strongswan networkmanager-l2tp network-manager-sstp networkmanager-openvpn
+pacman -S linux-docs linux-headers intel-ucode efivar ntfs-3g dosfstools dhcpcd netctl dhcpcd iw wpa_supplicant dialog networkmanager nm-connection-editor network-manager-applet modemmanager usb_modeswitch mobile-broadband-provider-info rp-pppoe networkmanager-openconnect networkmanager-pptp networkmanager-vpnc networkmanager-strongswan networkmanager-l2tp network-manager-sstp networkmanager-openvpn
 #adb (AUR)
 systemctl enable dhcpcd.service
 systemctl enable NetworkManager.service
@@ -49,7 +49,7 @@ usermod –aG wheel lcaraballo
 EDITOR=nano visudo
 
 #OTROS
-pacman -S xdg-user-dirs pulseaudio xfce4 xfce4-goodies lightdm lightdm-gtk-greeter mousepad xfwm4 xfwm4-themes xfce4-settings archlinux-xdg-menu xfce4-pulseaudio-plugin sound-theme-smooth xfce4-screenshooter ttf-droid ttf-dejavu
+pacman -S xdg-user-dirs xfce4 xfce4-goodies lightdm lightdm-gtk-greeter mousepad xfwm4 xfwm4-themes xfce4-settings archlinux-xdg-menu xfce4-pulseaudio-plugin xfce4-screenshooter ttf-droid ttf-dejavu
 #menulibre (AUR)
 systemctl enable lightdm.service
 
